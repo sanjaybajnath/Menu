@@ -22,8 +22,11 @@ public class Trio implements MenuItem {
             return p2 + p3;
         }
         if (p1 >= p3){
-            return p1+p3;
+            return p1+p2;
         }
-        return p1 +p2;
+        return p1 +p3;
     }
 }
+
+
+
